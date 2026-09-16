@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>Mummy's Tailoring</title>
+
+    <style>
+
+        body {
+            font-family: Arial;
+            text-align: center;
+            margin: 0;
+        }
+
+        header {
+            background-color: rgb(247, 140, 156);
+            padding: 20px;
+        }
+
+        nav {
+            background-color: black;
+            padding: 15px;
+        }
+
+        nav a {
+            color: white;
+            margin: 15px;
+            text-decoration: none;
+        }
+
+        #home {
+            background-color: #fff0f5;
+            padding: 70px 20px;
+        }
+
+        h1 {
+            color: #d63384;
+        }
+
+        button {
+            background-color: #d63384;
+            color: white;
+            border: none;
+            padding: 12px 25px;
+            cursor: pointer;
+        }
+
+        .service {
+            display: inline-block;
+            width: 200px;
+            margin: 10px;
+            padding: 20px;
+            background-color: #ffe4ec;
+        }
+
+        #contact {
+            background-color: #fff0f5;
+            padding: 50px;
+        }
+
+        footer {
+            background-color: black;
+            color: rgb(208, 93, 93);
+            padding: 15px;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <header>
+
+        <h2>🧵 Mummy's Tailoring</h2>
+
+        <p>Perfect Stitching With Love ❤️</p>
+
+    </header>
+
+
+    <nav>
+
+       <a href="home.html">Home</a>
+        <button onclick="document.getElementById" ('services').scrollIntoView();">Services</button>
+        <button onclick="document.getElementById('contact').scrollIntoView();">Contact</button>
+
+    </nav>
+
+
+    <section id="home">
+
+        <h1>Welcome to Mummy's Tailoring</h1>
+
+        <p>
+            Ladies Suit, Blouse, Dress,every type of stitching
+            and Alteration facility.
+        </p>
+
+        <button onclick="welcome()">
+            Click Me
+        </button>
+
+    </section>
+
+    <section>
+        <h1>best quality stiching </h1>
+    </section>
+
+
+    <section id="services">
+
+        <h1>Our Services</h1>
+
+        <div class="service">
+
+            <h2>👗</h2>
+
+            <h3>Suit Stitching</h3>
+
+            <p1>Perfect fitting ke saath suit stitching.</p1>
+
+        </div>
+
+
+        <div class="service">
+
+            <h2>👚</h2>
+
+            <h3>Blouse Stitching</h3>
+
+            <p>Simple aur designer blouse.</p>
+
+        </div>
+
+
+        <div class="service">
+
+            <h2>✂️</h2>
+
+            <h3>Alteration</h3>
+
+            <p>clothe fitting alteration.</p>
+
+        </div>
+
+    </section>
+
+
+   <section id="contact">
+
+    <h1>Contact Us</h1>
+
+    <p>📞 Phone: 9910412186</p>
+
+    <p>📍 Location:  delta-2 l-225 Greater Noida</p>
+
+    <a href="https://wa.me/9910412186?text=Hello%20Mummy's%20Tailoring,%20mujhe%20silai%20ke%20baare%20me%20jankari%20chahiye."
+       target="_blank">
+
+        <button>💬 WhatsApp Now</button>
+
+    </a>
+
+    </section>
+
+    <footer>
+
+        <p>© 2026 Mummy's Tailoring</p>
+
+    </footer>
+
+
+    <script>
+
+        function welcome() {
+
+            let option = prompt(
+                "Choose an option:\n\n" +
+                "1. Services\n" +
+                "2. Contact\n" +
+                "3. About Us"
+            );
+
+            if (option == "1") {
+
+                alert(
+                    "Services:\n" +
+                    "1. Suit Stitching\n" +
+                    "2. Blouse Stitching\n" +
+                    "3. Alteration"
+                );
+
+            }
+
+            else if (option == "2") {
+
+                alert(
+                    "Phone: 9910412186\n" +
+                    "Location:  delta-2 l-225 Greater Noida"
+                );
+
+            }
+
+            else if (option == "3") {
+
+                alert(
+                    "Mummy's Tailoring me " +
+                    "quality stitching aur perfect " +
+                    "fitting ki service milti hai."
+                );
+
+            }
+
+            else {
+
+                alert("Please enter 1, 2 or 3.");
+
+            }
+
+        }
+
+    </script>
+
+</body>
+</html>
